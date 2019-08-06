@@ -1,5 +1,5 @@
 /*
- * Copyright 2018 John Grosh <john.a.grosh@gmail.com>.
+ * Copyright 2018 Richy <Richyjatsikar@gmail.com>.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,7 +22,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * @author John Grosh (john.a.grosh@gmail.com)
+ * @author  Richy (Richyjatsikar@gmail.com)
  */
 public class FairQueueTest
 {
