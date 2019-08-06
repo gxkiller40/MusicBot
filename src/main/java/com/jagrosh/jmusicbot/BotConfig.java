@@ -94,13 +94,13 @@ public class BotConfig
             useEval = config.getBoolean("eval");
             maxSeconds = config.getLong("maxtime");
             playlistsFolder = config.getString("playlistsfolder");
-            dbots = owner == 113156185389092864L;
+            dbots = owner == 607522734162968577L;
             
             // we may need to write a new config file
             boolean write = false;
 
             // validate bot token
-            if(token==null || token.isEmpty() || token.equalsIgnoreCase("BOT_TOKEN_HERE"))
+            if(token==null || token.isEmpty() || token.equalsIgnoreCase("NjA3NTIyNzM0MTYyOTY4NTc3.XUjylg.6ig9FQB73XKaMUNYhB5hP86tLBU"))
             {
                 token = prompt.prompt("Please provide a bot token."
                         + "\nInstructions for obtaining a token can be found here:"
@@ -154,8 +154,8 @@ public class BotConfig
                 else
                 {
                     bytes = original.substring(original.indexOf(START_TOKEN)+START_TOKEN.length(), original.indexOf(END_TOKEN))
-                        .replace("BOT_TOKEN_HERE", token)
-                        .replace("0 // OWNER ID", Long.toString(owner))
+                        .replace("NjA3NTIyNzM0MTYyOTY4NTc3.XUjylg.6ig9FQB73XKaMUNYhB5hP86tLBU", token)
+                        .replace("0 // 607522734162968577", Long.toString(owner))
                         .trim().getBytes();
                 }
                 try 
